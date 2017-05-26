@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    tools:context="com.example.aldair.contactos.Email">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        />
+    <LinearLayout android:id="@+id/LinearLayout02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView android:text="Destinatario."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtForEmail"></TextView>
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="350dip"
+            android:id="@+id/txtEmail">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView android:text="Asunto:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbForSubject"></TextView>
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="350dip"
+            android:id="@+id/txtSubject">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView android:text="Mensaje:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbForBody"></TextView>
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="5"
+            android:width="350dip"
+            android:hint="Escribe un mensaje..."
+            android:inputType="textMultiLine"
+            android:id="@+id/txtMensaje">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEnviar"
+            android:text="Enviar"
+            android:layout_marginLeft="20dp"
+            android:width="150dip">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnInicio"
+            android:text="Inicio"
+            android:layout_marginLeft="20dp"
+            android:width="150dip"
+            />
+    </LinearLayout>
+</LinearLayout>

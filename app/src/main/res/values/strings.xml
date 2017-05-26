@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="agregarContacto">Agregar contacto</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Dirección de correo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="contactoNuvo">Contacto nuevo</string>
+    <string name="cambiar">Cambiar</string>
+    <string name="eliminarContacto">Eliminar contacto</string>
+    <string name="buscar">Buscar</string>
+    <string-array name="elementosMenuContextual">
+        <item>Editar</item>
+        <item>Eliminar</item>
+        <item>Llamar</item>
+        <item>Mensaje de texto</item>
+    </string-array>
+</resources>
